@@ -1,0 +1,13 @@
+create store data base, displayed database by price
+
+CREATE TABLE pet_store (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER);
+
+INSERT INTO pet_store VALUES
+(1, 'collar', 3, 2),
+(2, 'leash', 2, 4),
+(3, 'ball', 5, 1),
+(4, 'bowl', 4, 2),
+(5, 'bone', 1, 1)
+;
+
+SELECT * FROM pet_store ORDER BY price asc;
